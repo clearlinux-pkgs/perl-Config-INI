@@ -1,0 +1,7 @@
+0.025
+perl(Data::OptList)
+perl(Mixin::Linewise::Readers)
+perl(Mixin::Linewise::Writers)
+perl(Params::Util)
+perl(Sub::Exporter)
+perl(Sub::Install)
