@@ -1,2 +1,8 @@
 # This file contains additional runtime requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+perl(Data::OptList)
+perl(Mixin::Linewise::Readers)
+perl(Mixin::Linewise::Writers)
+perl(Params::Util)
+perl(Sub::Exporter)
+perl(Sub::Install)

@@ -4,7 +4,7 @@
 #
 Name     : perl-Config-INI
 Version  : 0.025
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-INI-0.025.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-INI-0.025.tar.gz
 Summary  : 'simple .ini-file format'
@@ -12,6 +12,12 @@ Group    : Development/Tools
 License  : Artistic-1.0 Artistic-1.0-Perl GPL-1.0
 Requires: perl-Config-INI-license = %{version}-%{release}
 Requires: perl-Config-INI-perl = %{version}-%{release}
+Requires: perl(Data::OptList)
+Requires: perl(Mixin::Linewise::Readers)
+Requires: perl(Mixin::Linewise::Writers)
+Requires: perl(Params::Util)
+Requires: perl(Sub::Exporter)
+Requires: perl(Sub::Install)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(Data::OptList)
 BuildRequires : perl(Mixin::Linewise::Readers)
