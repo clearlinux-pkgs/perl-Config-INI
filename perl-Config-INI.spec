@@ -4,7 +4,7 @@
 #
 Name     : perl-Config-INI
 Version  : 0.025
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-INI-0.025.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-INI-0.025.tar.gz
 Summary  : 'simple .ini-file format'
@@ -112,6 +112,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.2/Config/INI.pm
-/usr/lib/perl5/vendor_perl/5.28.2/Config/INI/Reader.pm
-/usr/lib/perl5/vendor_perl/5.28.2/Config/INI/Writer.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Config/INI.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Config/INI/Reader.pm
+/usr/lib/perl5/vendor_perl/5.30.1/Config/INI/Writer.pm
