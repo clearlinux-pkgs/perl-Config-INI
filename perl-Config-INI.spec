@@ -4,7 +4,7 @@
 #
 Name     : perl-Config-INI
 Version  : 0.025
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-INI-0.025.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Config-INI-0.025.tar.gz
 Summary  : 'simple .ini-file format'
